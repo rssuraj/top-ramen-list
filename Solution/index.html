@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	
+	<title>Top Ramens</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/topRamen.css">
+	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <a class="navbar-brand" href="#"><i class="fas fa-utensils"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <div class="my-2 my-lg-0">
+            <input id="search" type="text" class="rounded mr-sm-2 p-1" placeholder="Search" aria-label="Search">
+            <button id="searchBtn" class="btn btn-outline-success my-2 my-sm-0">Search</button>
+          </form>
+        </div>
+      </nav>
+
+	<div class="container-fuild">
+		<div class="jumbotron text-white">
+			<h1 class="display-4"><i class="fas fa-utensils"></i> Top Ramens</h1>
+			<p><em>List of Top Ramens accross the World!</em></p>
+		</div>
+
+		<div class="row justify-content-around mx-3">
+			<div class="col-sm-2 p-0 mb-4">
+			  <div id="years" class="list-group">
+			  </div>
+			</div>
+			<div class="col-sm-9 p-0 mb-4">
+				<div id="listDiv" class="row m-0 text-success"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script type="text/javascript" src="assets/js/lib/jquery-3.5.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	
+	<script type="text/javascript" src="assets/js/data.js"></script>
+	<script type="text/javascript" src="assets/js/topRamens.js"></script>
+</body>
+</html>

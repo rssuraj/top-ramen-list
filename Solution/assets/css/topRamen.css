@@ -1,0 +1,23 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../images/slider-image2.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    transition: all 1s;
+}
+
+.fadeIn {
+    display: none;
+    background: rgba(0,0,0,0.6);
+}
+
+.jumbotron {
+    background: transparent;
+}
